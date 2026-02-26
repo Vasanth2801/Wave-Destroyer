@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 1030c11bcb4f08d458338e7492ff7218
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3632753141786359427
+    second: Sheet_Tanks_Color_0
+  - first:
+      213: -1492867984471790247
+    second: Sheet_Tanks_Color_1
+  - first:
+      213: 1196983395874412899
+    second: Sheet_Tanks_Color_2
+  - first:
+      213: -8432024033148422555
+    second: Sheet_Tanks_Color_3
+  - first:
+      213: 1399293190858233010
+    second: Sheet_Tanks_Color_4
+  - first:
+      213: -7390182942798010058
+    second: Sheet_Tanks_Color_5
+  - first:
+      213: -3469638113162262896
+    second: Sheet_Tanks_Color_6
+  - first:
+      213: 1213933560669079995
+    second: Sheet_Tanks_Color_7
+  - first:
+      213: 882496776538499345
+    second: Sheet_Tanks_Color_8
+  - first:
+      213: 8241355289106692938
+    second: Sheet_Tanks_Color_9
+  - first:
+      213: 2534361911047747688
+    second: Sheet_Tanks_Color_10
+  - first:
+      213: -962347893266584596
+    second: Sheet_Tanks_Color_11
+  - first:
+      213: 9206310165314133041
+    second: Sheet_Tanks_Color_12
+  - first:
+      213: 264586455853138828
+    second: Sheet_Tanks_Color_13
+  - first:
+      213: 2682258296747711509
+    second: Sheet_Tanks_Color_14
+  - first:
+      213: 1425327947894411947
+    second: Sheet_Tanks_Color_15
+  - first:
+      213: -4829471661358733942
+    second: Sheet_Tanks_Color_16
+  - first:
+      213: -7133889398934572443
+    second: Sheet_Tanks_Color_17
+  - first:
+      213: -2151356468960049706
+    second: Sheet_Tanks_Color_18
+  - first:
+      213: -3097897448682490327
+    second: Sheet_Tanks_Color_19
+  - first:
+      213: -8955955823222466065
+    second: Sheet_Tanks_Color_20
+  - first:
+      213: -7665550155346379959
+    second: Sheet_Tanks_Color_21
+  - first:
+      213: 746920120165241184
+    second: Sheet_Tanks_Color_22
+  - first:
+      213: -6224089271481919286
+    second: Sheet_Tanks_Color_23
+  - first:
+      213: 3645741537819810166
+    second: Sheet_Tanks_Color_24
+  - first:
+      213: 4202719806571777803
+    second: Sheet_Tanks_Color_25
+  - first:
+      213: -4141194004129450672
+    second: Sheet_Tanks_Color_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 229
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3863cdc3cb12a6230800000000000000
+      internalID: 3632753141786359427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 234
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d61094a74484be0800000000000000
+      internalID: -1492867984471790247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 228
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36992218e0a8c9010800000000000000
+      internalID: 1196983395874412899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 229
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566b1ae01de6bfa80800000000000000
+      internalID: -8432024033148422555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 231
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b45ab94eb94b6310800000000000000
+      internalID: 1399293190858233010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 232
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639af55b4cbc07990800000000000000
+      internalID: -7390182942798010058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 226
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0968ecdd48e59dfc0800000000000000
+      internalID: -3469638113162262896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 226
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb90b984422c8d010800000000000000
+      internalID: 1213933560669079995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 225
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119210184224f3c00800000000000000
+      internalID: 882496776538499345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 122
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bbdfa88fc2f5270800000000000000
+      internalID: 8241355289106692938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 123
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868f7400bbcdb2320800000000000000
+      internalID: 2534361911047747688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 121
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebef7790bd05a2f0800000000000000
+      internalID: -962347893266584596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 122
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cdd97715263cf70800000000000000
+      internalID: 9206310165314133041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 121
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c838181dafffba300800000000000000
+      internalID: 264586455853138828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 122
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cdd7da5bb493520800000000000000
+      internalID: 2682258296747711509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 119
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2dea68738c7c310800000000000000
+      internalID: 1425327947894411947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_16
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 118
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85a5e39c154afcb0800000000000000
+      internalID: -4829471661358733942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_17
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 117
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562749d73655ffc90800000000000000
+      internalID: -7133889398934572443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 15
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5c56a90b8d422e0800000000000000
+      internalID: -2151356468960049706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 16
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926f0bc0fae0205d0800000000000000
+      internalID: -3097897448682490327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 15
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9dbb421ad06b380800000000000000
+      internalID: -8955955823222466065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 16
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b73ae5fbe7e9590800000000000000
+      internalID: -7665550155346379959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_22
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 15
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0619a0654e79d5a00800000000000000
+      internalID: 746920120165241184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 16
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac81003c8c79f99a0800000000000000
+      internalID: -6224089271481919286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_24
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 11
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679d2a8dc96489230800000000000000
+      internalID: 3645741537819810166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_25
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 9
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f8539a56f035a30800000000000000
+      internalID: 4202719806571777803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Tanks_Color_26
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 8
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055f2e58ef58786c0800000000000000
+      internalID: -4141194004129450672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sheet_Tanks_Color_0: 3632753141786359427
+      Sheet_Tanks_Color_1: -1492867984471790247
+      Sheet_Tanks_Color_10: 2534361911047747688
+      Sheet_Tanks_Color_11: -962347893266584596
+      Sheet_Tanks_Color_12: 9206310165314133041
+      Sheet_Tanks_Color_13: 264586455853138828
+      Sheet_Tanks_Color_14: 2682258296747711509
+      Sheet_Tanks_Color_15: 1425327947894411947
+      Sheet_Tanks_Color_16: -4829471661358733942
+      Sheet_Tanks_Color_17: -7133889398934572443
+      Sheet_Tanks_Color_18: -2151356468960049706
+      Sheet_Tanks_Color_19: -3097897448682490327
+      Sheet_Tanks_Color_2: 1196983395874412899
+      Sheet_Tanks_Color_20: -8955955823222466065
+      Sheet_Tanks_Color_21: -7665550155346379959
+      Sheet_Tanks_Color_22: 746920120165241184
+      Sheet_Tanks_Color_23: -6224089271481919286
+      Sheet_Tanks_Color_24: 3645741537819810166
+      Sheet_Tanks_Color_25: 4202719806571777803
+      Sheet_Tanks_Color_26: -4141194004129450672
+      Sheet_Tanks_Color_3: -8432024033148422555
+      Sheet_Tanks_Color_4: 1399293190858233010
+      Sheet_Tanks_Color_5: -7390182942798010058
+      Sheet_Tanks_Color_6: -3469638113162262896
+      Sheet_Tanks_Color_7: 1213933560669079995
+      Sheet_Tanks_Color_8: 882496776538499345
+      Sheet_Tanks_Color_9: 8241355289106692938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
