@@ -277,7 +277,6 @@ MonoBehaviour:
   rb: {fileID: 337254813}
   firePoint: {fileID: 1563680945}
   cam: {fileID: 519420031}
-  pooler: {fileID: 1846566602}
   moveInput: {x: 0, y: 0}
   mousePos: {x: 0, y: 0}
 --- !u!114 &337254816
@@ -292,6 +291,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f78be6ccdce47684480b17a97284f1a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapons
+  weapons:
+  - {fileID: 11400000, guid: 4112bd2a5560d1c44a37daaa053ad5f7, type: 2}
+  - {fileID: 11400000, guid: e539db2994853c844a4907b807e85eb7, type: 2}
+  - {fileID: 11400000, guid: 202677f6668b5824c940edbd05fa3143, type: 2}
+  currentWeaponIndex: 0
+  pooler: {fileID: 1846566602}
+  firePoint: {fileID: 1563680945}
+  bulletForce: 20
 --- !u!1 &449014332
 GameObject:
   m_ObjectHideFlags: 0

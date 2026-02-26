@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform firePoint;
     [SerializeField] private Camera cam;
-    [SerializeField] private ObjectPooler pooler;
+   // [SerializeField] private ObjectPooler pooler;
     PlayerController controller;
 
     [Header("Inputs")]
@@ -42,11 +42,12 @@ public class Player : MonoBehaviour
     private void Update()
     {
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-
+        /*
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             Shoot();
         }
+        */
     }
 
     private void FixedUpdate()
@@ -63,11 +64,11 @@ public class Player : MonoBehaviour
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angle;
     }
-
+    /*
     void Shoot()
     {
         GameObject bullet = pooler.SpawnFromPools("Bullet", firePoint.position, firePoint.rotation);
         Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
         bulletRb.AddForce(firePoint.up * bulletSpeed, ForceMode2D.Impulse);
-    }
+    }\*/
 }
