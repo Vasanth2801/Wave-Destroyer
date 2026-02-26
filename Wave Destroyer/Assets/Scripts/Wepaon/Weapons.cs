@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class Weapons : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class Weapons : MonoBehaviour
     [Header("Shooting")]
     [SerializeField] private Transform firePoint;
     [SerializeField] private float bulletForce = 20f;
+
+    [Header("UI")]
+    [SerializeField] private TextMeshProUGUI weaponText;
 
     void Start()
     {
@@ -59,6 +63,8 @@ public class Weapons : MonoBehaviour
         {
             Shoot();
         }
+
+        UIupdate();
     }
 
     void Shoot()
@@ -80,6 +86,15 @@ public class Weapons : MonoBehaviour
         else
         {
             Debug.Log("Out of ammo for " + currentWeapon.weaponName);
+        }
+    }
+
+    void UIupdate()
+    {
+        if(weaponText != null)
+        {
+            weaponText.text = $"Weapon: {currentWeapon.weaponName} \n" +
+                              $"Ammo: {currentMag}/{currentWeapon.size}";
         }
     }
 }
