@@ -19,9 +19,9 @@ public class EnemySpawner : MonoBehaviour
     public Transform[] spawnPoint;
     public int currentWave = 0;
     public  bool countDownBegin;
-    [SerializeField] private TextMeshProUGUI waveCountDownText;     
+    [SerializeField] private TextMeshProUGUI waveCountDownText;
 
-    private void Start()
+    void Start()
     {
         countDownBegin = true;
         for (int i = 0; i < waves.Length; i++)
@@ -32,14 +32,14 @@ public class EnemySpawner : MonoBehaviour
         waveCountDownText.text = "Current Wave: " + currentWave.ToString();
     }
 
-
-    private void Update()
+    void Update()
     {
         if (currentWave >= waves.Length)
         {
             Debug.Log("All Waves Completed!");
             return;
         }
+
         if (countDownBegin == true)
         {
             countDown -= Time.deltaTime;
@@ -57,7 +57,6 @@ public class EnemySpawner : MonoBehaviour
             countDownBegin = true;
             currentWave++;
         }
-
         waveCountDownText.text = "Current Wave: " + currentWave.ToString();
     }
 
@@ -69,9 +68,10 @@ public class EnemySpawner : MonoBehaviour
             {
                 Transform spawnPoints = spawnPoint[Random.Range(0, spawnPoint.Length)];
                 GameObject enemy = Instantiate(waves[currentWave].enemies[i], spawnPoints.position, Quaternion.identity);
+                enemy.transform.SetParent(spawnPoints);
                 yield return new WaitForSeconds(waves[currentWave].timeBetweenSpawns);
             }
-            Debug.Log("Wave Spawned");
+            Debug.Log("Wave " + currentWave + " Spawned!");
         }
     }
 }
